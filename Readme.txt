@@ -14,7 +14,7 @@ This project uses data from the RAND Health Insurance Experiment, originally con
 - How sampling variability appears even when sample size is fixed
 
 
-🗂 Dataset:
+* Dataset:
 
 The dataset contains 20,190 individuals enrolled in a large-scale health insurance experiment.
 
@@ -26,7 +26,7 @@ Key variable used in this project:
 
 We treat mdvis as a numeric outcome and estimate its population mean under different sampling scenarios.
 
-🎯 Business Motivation: 
+* Business Motivation: 
 
 In real-world analytics work, we frequently ask:
 
@@ -40,11 +40,11 @@ In real-world analytics work, we frequently ask:
 
 This project answers those questions using empirical simulation.
 
-🔬 Methodology
+* Methodology:
 
 The project consists of three components:
 
-1️⃣ Effect of Sample Size on Confidence Intervals
+1) Effect of Sample Size on Confidence Intervals
 
 Random samples of varying sizes were drawn:
 
@@ -61,7 +61,7 @@ For each sample:
 - Visualising CI width across sample sizes
 
 
-2️⃣ Margin of Error vs Sample Size
+2) Margin of Error vs Sample Size
 
 The margin of error (MOE) was computed as:
 
@@ -69,7 +69,7 @@ MOE = upper CI bound − mean
 
 	​
 
-3️⃣ Sampling Variability at Fixed Sample Size
+3) Sampling Variability at Fixed Sample Size
 
 With a fixed sample size (n = 100):
 
@@ -97,7 +97,7 @@ This project highlights practical analytics competencies:
 ✔ Data visualization for communicating variability
 ✔ Translating statistical theory into business implications
 
-🛠 Tools Used
+* Tools Used:
 
 - Python
 
