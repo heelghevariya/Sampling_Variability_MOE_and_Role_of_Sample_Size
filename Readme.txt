@@ -1,6 +1,7 @@
-📊 Sampling Variability and Margin of Error Analysis
+### Sampling Variability and Margin of Error Analysis:
 Understanding How Sample Size Affects Uncertainty in Real-World Data
-📌 Project Overview
+
+Project Overview:
 
 In data analytics, decisions are often based on sample estimates rather than full populations. Understanding how sample size affects uncertainty is critical when interpreting survey results, A/B tests, healthcare metrics, or operational KPIs.
 
